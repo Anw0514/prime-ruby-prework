@@ -8,7 +8,8 @@ def prime?(num)
       if num % inc == 0
         return false
       end
+      inc += 1
     end
-    inc += 1
+    return true
   end
 end
