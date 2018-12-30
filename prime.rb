@@ -1,5 +1,4 @@
 def prime?(num)
-  half = (num / 2).to_i
   inc = 2
   until inc >= half do
     puts num % inc
