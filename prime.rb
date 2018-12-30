@@ -2,7 +2,7 @@ def prime?(num)
   half = (num / 2).to_i
   inc = 2
   while inc <= half do
-    puts inc
+    puts num % inc
     if num % inc == 0
       return false
     else
