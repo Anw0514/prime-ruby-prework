@@ -1,4 +1,7 @@
 def prime?(num)
+  if num <= 0
+    return false
+  else
   inc = 2
   until inc >= num do
     puts num % inc
@@ -8,6 +11,7 @@ def prime?(num)
       return true
     end
     inc += 1
+  end
   end
   
   
