@@ -12,9 +12,4 @@ def prime?(num)
     end
     inc += 1
   end
-  end
-  
-  
-  
-  
 end
